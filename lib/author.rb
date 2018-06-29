@@ -12,4 +12,9 @@ class Author
     @@all 
   end 
   
+  def posts (post)
+    @post = post 
+  end 
+  
+  
 end 
