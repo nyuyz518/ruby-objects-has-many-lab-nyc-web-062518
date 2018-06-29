@@ -1,5 +1,11 @@
 class Artist 
   attr_reader :name 
   
-  d
+  @@all = []
+
+  def initialize(name)
+    @name = name
+    @@all << self
+  end
+  
 end 
