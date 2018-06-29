@@ -12,5 +12,9 @@ class Artist
     @@all 
   end 
   
+  def all_song 
+    
+  end 
+  
   
 end 
